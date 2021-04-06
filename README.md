@@ -11,7 +11,7 @@
  - Modified;  File content has changed, changed from committed; Changed but not committed yet (Work in progress)
  - Staged;    Changes are ready to be committed; 
 
-![image](https://user-images.githubusercontent.com/45315180/113683456-84c21380-96c4-11eb-9e60-6bc23311c903.png]
+![image](https://user-images.githubusercontent.com/45315180/113683456-84c21380-96c4-11eb-9e60-6bc23311c903.png)
 
 
 ## Process 
