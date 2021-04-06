@@ -11,7 +11,7 @@
  - Modified;  File content has changed, changed from committed; Changed but not committed yet (Work in progress)
  - Staged;    Changes are ready to be committed; 
 
-![image](https://user-images.githubusercontent.com/45315180/113683456-84c21380-96c4-11eb-9e60-6bc23311c903.png
+![image](https://user-images.githubusercontent.com/45315180/113683456-84c21380-96c4-11eb-9e60-6bc23311c903.png]
 
 
 ## Process 
@@ -29,6 +29,7 @@
  2. Files are then sent to the working directory
  3. A snapshot could be taken to the Staging directory to apply more modifications
  4. Staging is then commited back to the .git directory
+ 
  ![image](https://user-images.githubusercontent.com/45315180/113676217-766ff980-96bc-11eb-920d-1e35599d6d30.png)
 
 # Process for simple repo
