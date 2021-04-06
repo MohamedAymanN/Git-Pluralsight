@@ -68,3 +68,41 @@ git push -u origin master
 ```
 git status
 ```
+
+## Shorter status
+```
+git status -s
+```
+ _________________________________
+ | Staged | Modified | File Name |
+ |   M    |          |     F1    |
+ |        |     M    |     F2    |
+ |   ?    |     ?    |           |
+ --------------------------------- 
+ - M : Modified
+ - A : New File added to staging
+ - ??: New file untracked by git
+
+# Git Diff 
+ - Changes staged that are ready to be committed
+
+![image](https://user-images.githubusercontent.com/45315180/113685543-a7edc280-96c6-11eb-88fb-c7c33947c635.png)
+
+ ```
+ git diff --staged
+ ```
+   - Shows files that are compared from different snapshot versions
+   - File Metadata; hash of files compared (SHA-1); Number identifier (100644: Normal file)
+   - Change markers for files
+   - Chunk header; changes happend `@@ -12, 2 +12, 3 @@` (- for file A and + for file B); -12 2: File A has 2 changes starting from line 12
+   - Chunk changes; the line itselfes
+ ## If two files are similar and are not the same name, git thinks we copied and renamed the files
+ Avoid this:
+ ```
+ git diff --staged --no-renames
+ ```
+ 
+ - Changes made but not yet staged
+ ```
+ git diff
+ ```
