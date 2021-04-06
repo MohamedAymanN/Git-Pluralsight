@@ -40,7 +40,7 @@ git status
 git status -s
 ```
  _________________________________  
- | Staged | Modified | File Name |  
+ | Staged | Modified | File Name |  
  |   M    |          |     F1    |  
  |        |     M    |     F2    |  
  |   ?    |     ?     |           |  
