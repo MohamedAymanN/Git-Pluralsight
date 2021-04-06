@@ -31,3 +31,7 @@ git add <fileName>
 ```
 git commit -m "first commit"
 ```
+# Status of repo
+```
+git status
+```
