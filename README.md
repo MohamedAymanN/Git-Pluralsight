@@ -11,6 +11,9 @@
  - Modified;  File content has changed, changed from committed; Changed but not committed yet (Work in progress)
  - Staged;    Changes are ready to be committed; 
 
+![image](https://user-images.githubusercontent.com/45315180/113683456-84c21380-96c4-11eb-9e60-6bc23311c903.png
+
+
 ## Process 
  1. Committed file if modifed turns to be Modified
  2. Modified file when done with changes is marked for committing and changed to Staged
@@ -58,4 +61,9 @@ git remote add origin "remoteURL"
 ## 6. Push repo to remote
 ```
 git push -u origin master
+```
+
+# Lets check the status of our repo
+```
+git status
 ```
