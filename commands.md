@@ -42,8 +42,8 @@ git status -s
  _________________________________  
  | Staged | Modified | File Name |  
  |   M    |          |     F1    |  
- |        |     M    |     F2    |  
- |   ?    |     ?    |           |  
+ |        |     M    |     F2    |  
+ |   ?    |     ?    |           |  
  ---------------------------------  
  - M : Modified
  - A : New File added to staging
