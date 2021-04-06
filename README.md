@@ -27,3 +27,9 @@
  3. A snapshot could be taken to the Staging directory to apply more modifications
  4. Staging is then commited back to the .git directory
  ![image](https://user-images.githubusercontent.com/45315180/113676217-766ff980-96bc-11eb-920d-1e35599d6d30.png)
+ 
+# Init a repo
+```
+git init
+```
+ - A .git directory is created and is hidden.
