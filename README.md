@@ -1,24 +1,5 @@
 # Git-Pluralsight
 
-- [Git-Pluralsight](#git-pluralsight)
-- [What is git?](#what-is-git-)
-- [Three stages of a file](#three-stages-of-a-file)
-  * [Process](#process)
-    + [Files only tracked by git are in this process; File in the last commit snapshot](#files-only-tracked-by-git-are-in-this-process--file-in-the-last-commit-snapshot)
-- [Three Main parts of git](#three-main-parts-of-git)
-  * [Process](#process-1)
-- [Process for simple repo](#process-for-simple-repo)
-  * [1. Init a repo](#1-init-a-repo)
-  * [2. Create a README file](#2-create-a-readme-file)
-  * [3. Add file to staging](#3-add-file-to-staging)
-  * [4. Commit](#4-commit)
-  * [5. Link local with remote repo](#5-link-local-with-remote-repo)
-  * [6. Push repo to remote](#6-push-repo-to-remote)
-- [Lets check the status of our repo](#lets-check-the-status-of-our-repo)
-  * [Shorter status](#shorter-status)
-- [Git Diff](#git-diff)
-  * [If two files are similar and are not the same name, git thinks we copied and renamed the files](#if-two-files-are-similar-and-are-not-the-same-name--git-thinks-we-copied-and-renamed-the-files)
-
 # What is git?
  - Version control system 
    - Software designed to record changes made to files overtime
