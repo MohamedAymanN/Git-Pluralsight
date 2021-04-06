@@ -72,3 +72,94 @@ git status -s
  ```
  git diff
  ```
+ 
+ # View commit history
+ ```
+ git log
+ ```
+ 
+ ## Limit number of logs
+ ```
+ git log -1
+ ```
+ 
+ ## Single line format
+ ```
+ git log --oneline
+ ```
+ 
+ ## Detailed log
+ ```
+ git log --stat
+ ```
+ 
+  ## More Detailed log
+ ```
+ git log --patch
+ ```
+ 
+  # Remove file from tracking and project
+ ```
+ git rm <fileName>
+ ```
+ 
+ # Remove file from tracking ONLY
+ ```
+ git rm <fileName> --cached
+ ```
+ 
+ # Rename file
+ ```
+ git mv <filename> <newFileName>
+ ```
+ # Stash commits
+ ```
+ git stash
+ git stash list
+ git stash show
+ git stash pop // Remove from stash
+ ```
+ 
+ # Branches
+  - Visualization Tool: https://git-school.github.io/visualizing-git/
+  ## Creating a new branch
+  ```
+  git branch <branchName>
+  ```
+  ## Creating a new branch and checkout to it
+  ```
+  git checkout -b <branchName>
+  ```
+  
+  ## Checkout to another branch
+  ```
+  git checkout <branchName>
+  ```
+  
+  ## Merge branches
+  ```
+  git merge <branch1> // Merge current branch with <branch1>
+  ```
+  
+# Change History with rest
+ - Move specifc commit(s) from repo to staging
+ ```
+ git reset --soft
+ ```
+ - Move changes to workdir
+ ```
+ git reset --mixed
+ ```
+ - Move changes to trash
+ ```
+ git reset --hard
+ ```
+# Pull from remote repo
+```
+git clone <repoLink>
+```
+
+# Pull latest metadata info from original repo
+```
+git fetch <repoLink>
+```
