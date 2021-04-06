@@ -21,3 +21,13 @@ git config <configName>
 git init
 ```
 
+# Add a file to staging
+```
+git add . // Adds all
+git add <fileName>
+```
+
+# Commit
+```
+git commit -m "first commit"
+```
