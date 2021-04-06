@@ -31,6 +31,16 @@ git add <fileName>
 ```
 git commit -m "first commit"
 ```
+
+# Link local with remote repo
+```
+git remote add origin "remoteURL"
+```
+# Push repo to remote
+```
+git push -u origin master
+```
+
 # Status of repo
 ```
 git status
