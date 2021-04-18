@@ -163,3 +163,7 @@ git clone <repoLink>
 ```
 git fetch <repoLink>
 ```
+# Merge
+https://www.atlassian.com/git/tutorials/using-branches/git-merge
+
+# 
