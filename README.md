@@ -152,6 +152,7 @@ git status -s
  ```
  
  # Stash commits
+ https://www.atlassian.com/git/tutorials/saving-changes/git-stash
  ```
  git stash
  git stash list
@@ -202,3 +203,9 @@ git clone <repoLink>
 ```
 git fetch <repoLink>
 ```
+
+# Rebasing
+https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
+
+# Tag
+https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag
